@@ -1,3 +1,25 @@
+
+local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
+local Hwid = {
+    [1] = "D8C3DFC7-6396BB9E3E49",
+    ["D8C3DFC7-6396BB9E3E49"] = 1
+}
+local Key = {
+    [1] = "D8C3DFC7-6396BB9E3E49",
+}
+local KeyNumber = Hwid[ClientId]
+if Hwid[KeyNumber] == ClientId then
+if Key[KeyNumber] == _G.key then
+
+else
+    print("Not Have Key")
+end
+else
+    print("Not Have Hwid")
+end
+
+
+
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
